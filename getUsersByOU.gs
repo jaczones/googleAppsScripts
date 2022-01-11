@@ -9,7 +9,7 @@ function getUsersByOu() {
   let pageToken
   do {
     const page = AdminDirectory.Users.list({
-      domain: '<domain name>', // can also user customer: myCustomer
+      domain: '<domain name>', // can also user customer: my_customer
       maxResults: 100,
       pageToken: pageToken
     })
